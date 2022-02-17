@@ -1,49 +1,49 @@
 [
     {
         "clientId": "1",
-        "img": "HTV.jfif",
+        "img": "https://imgur.com/97cMqie.png",
         "background": "bg-warning",
         "txt": "Yalla Yalla Ya Beitar",
         "interval": "10000"
     },
     {
         "clientId": "1",
-        "img": "HTV.jfif",
+        "img": "https://imgur.com/7dCSWy0.png",
         "background": "bg-primary",
         "txt": "Yalla Yalla Ya Maccabi",
         "interval": "12000"
     },
     {
         "clientId": "1",
-        "img": "https://imgur.com/GzNTd6B",
+        "img": "https://imgur.com/GzNTd6B.png",
         "background": "bg-success",
         "txt": "Yalla Yalla Ya Haifa",
         "interval": "14000"
     },
     {
         "clientId": "1",
-        "img": "https://imgur.com/jVJqjw5",
+        "img": "https://imgur.com/jVJqjw5.png",
         "background": "bg-danger",
         "txt": "Yalla Yalla Ya Hapoel",
         "interval": "17000"
     },
     {
         "clientId": "2",
-        "img": "https://imgur.com/97cMqie",
+        "img": "https://imgur.com/97cMqie.png",
         "background": "bg-warning",
         "txt": "Yom gashom Hayom",
         "interval": "10000"
     },
     {
         "clientId": "2",
-        "img": "https://imgur.com/jVJqjw5",
+        "img": "https://imgur.com/7dCSWy0.png",
         "background": "bg-primary",
         "txt": "Yom Shimshi Hayom",
         "interval": "12000"
     },
     {
         "clientId": "2",
-        "img": "https://imgur.com/GzNTd6B",
+        "img": "https://imgur.com/GzNTd6B.png",
         "background": "bg-success",
         "txt": "Shabat shlom",
         "interval": "14000"
@@ -57,28 +57,28 @@
     },
     {
         "clientId": "3",
-        "img": "https://imgur.com/97cMqie",
+        "img": "https://imgur.com/97cMqie.png",
         "background": "bg-warning",
         "txt": "Yalla Yalla Ya Eden",
         "interval": "10000"
     },
     {
         "clientId": "3",
-        "img": "https://imgur.com/jVJqjw5",
+        "img": "https://imgur.com/7dCSWy0.png",
         "background": "bg-primary",
         "txt": "Yalla Yalla Ya Amit",
         "interval": "12000"
     },
     {
         "clientId": "3",
-        "img": "https://imgur.com/GzNTd6B",
+        "img": "https://imgur.com/GzNTd6B.png",
         "background": "bg-success",
         "txt": "Yalla Yalla Ya Bar",
         "interval": "14000"
     },
     {
         "clientId": "3",
-        "img": "https://imgur.com/jVJqjw5",
+        "img": "https://imgur.com/jVJqjw5.png",
         "background": "bg-danger",
         "txt": "Yalla Yalla Ya Hen",
         "interval": "17000"
