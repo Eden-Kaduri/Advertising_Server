@@ -8,17 +8,14 @@
     <!-- <script type="text/javascript" src="Index.js"></script> -->
 
     <style>
+        body{
+            font-family: 'Arial'; 
+        }
     .container{
       position: absolute;
       top:20px;
       left: 480px;
     }
-
-        #Message {
-            width: 70%;
-            height: 500px;
-        }
-
 .btn{
     width: 300px;  
     height: 30px;  
@@ -27,6 +24,53 @@
     color: #f7fbfb; 
     background-color:#277582; 
 }
+
+
+#log{  
+width: 300px;  
+height: 30px;  
+border: none;  
+padding-left: 7px;  
+color: #f7fbfb; 
+background-color:#277582; 
+}  
+
+.title{
+    
+    margin-top: 25px;
+font-size: 25px;
+color:#277582; 
+text-decoration: underline;
+}
+
+.lable{
+font-size: 14px;
+text-decoration: none;
+
+}
+
+#Message{
+    width:400px;
+    height: 400x;
+    padding: 50px;
+
+    
+}
+
+#msg_txt{
+    font-size: 16px;
+    color: black;
+    /* margin-left: 100px;
+    margin-bottom: 20px; */
+}
+
+.input-edit-admin{
+    width: 300px;  
+height: 30px;  
+border: none;  
+padding-left: 8px;  
+}
+
 
     </style>
 
@@ -163,26 +207,26 @@
 
 
     </script>
-    <title>Client</title>
+<title class="title">Client</title>
 </head>
 
 <body>
     <div class="container">
-        <h1 id="user">Client</h1>
+        <p class="title"><b>Client</b></p>
 
         <div id="user_name">
 
-            <label class="form-label">User Name</label>
-            <input type="text" class="input-edit-admin form-control" id="username" placeholder="User name"
-                style="width:400px;"></input>
+            <label class="lable">User Name</label>
+            <input type="text" class="input-edit-admin" id="username"
+               ></input>
             <br><br>
 
-            <label class="form-label">Password</label>
-            <input type="Password" class="input-edit-admin form-control" id="userpass" placeholder="Password"
-                style="width:400px;"></input>
+            <label class="lable">Password</label>
+            <input type="Password" class="input-edit-admin" id="userpass"
+                ></input>
             <br><br>
 
-            <input type="button" class="btn btn-primary" id="login" value="Log In">
+            <input type="button" class="btn" id="login" value="Log In">
 
         </div>
 
@@ -196,7 +240,7 @@
         <br>
 
         <div id="Message">
-            <h5 id="msg_txt"></h5>
+            <p id="msg_txt"></p>
             <img id="msg_img" src=""> 
 
 

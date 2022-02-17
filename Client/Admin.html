@@ -13,7 +13,7 @@ body  {
 .admin-containe{
     position: absolute;
     top:20px;
-    left: 520px;
+    left: 50px;
 }
 
 #UserList,#editMessages,#adminPassUserChangebtn {  
@@ -30,7 +30,7 @@ body  {
     
     position: absolute;
     top: 200px;
-    left: 530px;
+    left: 50px;
     width: 400px;
     border: 2px solid #277582;
     height: 220px;
@@ -41,7 +41,7 @@ body  {
     
     position: absolute;
     top: 200px;
-    left: 530px;
+    left:50px;
     width: 500px;
     border: 2px solid #277582;
     height: 220px;
@@ -82,15 +82,58 @@ display: flex;
 }
 
 .user_line{
-    color: black;
-    font-size:14px;
+    color: red;
+    font-size:16px;
     margin-bottom: 5px;
 }
 .user_line_connected{
     color: green;
-    font-size:14px;
+    font-size:16px;
     margin-bottom: 5px;
 }
+
+.login{  
+
+position: absolute;
+top:50px;
+left: 400px;  
+
+}  
+
+#Uname{  
+width: 300px;  
+height: 30px;  
+border: none;  
+padding-left: 8px;  
+}  
+#Pass{  
+width: 300px;  
+height: 30px;  
+border: none;  
+padding-left: 8px;  
+  
+}  
+#log{  
+width: 300px;  
+height: 30px;  
+border: none;  
+padding-left: 7px;  
+color: #f7fbfb; 
+background-color:#277582; 
+}  
+
+.title{
+font-size: 25px;
+color:#277582; 
+text-decoration: underline;
+}
+
+.lable{
+font-size: 14px;
+text-decoration: none;
+
+}
+
 </style>
 <script>
 
@@ -312,16 +355,13 @@ display: flex;
 
 <body>
     <div class="admin-containe">
-            <h2>Admin Managment Page</h2>
-
+            <h2 class="title">Ads managment page</h2>
             <div id="outPut"></div>
-
             <button id="UserList">Users List</button>
-
-            <button id="editMessages">Edit Message</button>
-
+            <button id="editMessages">Edit Messages</button>
             <button id="adminPassUserChangebtn">Edit Admin</button>
     </div>
+
 <div id="view_users" style="display: none;">
    <p class="user_line" id="user1"></p>
    <p class="user_line" id="user2"></p>
@@ -330,17 +370,17 @@ display: flex;
 
 <div id="admin_edit" style="display: none;">
 
-    <label>User Name</label>    
+    <label class="lable">User name</label>    
     <input type="text" class="input-edit-admin" id="admin_name" placeholder="User name"></input> 
     <br><br>    
     
-    <label>Password</label>    
+    <label class="lable">Password</label>    
     <input type="Password" class="input-edit-admin" id="admin_pass" placeholder="Password"></input>     
     <br><br>   
-    <label>New User Name</label>    
+    <label class="lable">New user name</label>    
     <input type="text" class="input-edit-admin" id="admin_name_new" placeholder="Enter new name"></input> 
     <br><br>    
-    <label>New Password</label>    
+    <label class="lable">New password</label>    
     <input type="Password" class="input-edit-admin" id="admin_pass_new" placeholder="Enter new password"></input>     
     <br><br>    
     <input type="button" name="submit_admin" class="btn" id="submit_admin_edit" value="Save Changes">       
@@ -350,14 +390,14 @@ display: flex;
 <div id="massege_edit" style="display: none;">
 
     <div id="pros1">
-        <label>Enter screen number</label>    
+        <label class="lable">Enter screen number</label>    
         <input type="text" class="input-edit-small" id="editmsg_screen" placeholder="1"></input> 
     </div>
     
     <br>
     <div id="pros2" style="display: none;">
         <div class="row-container">
-            <label id="select_msg_lable"></label> 
+            <label id="select_msg_lable" class="lable"></label> 
             <input type="text" class="input-edit-small" id="editmsg_msg" placeholder="1"></input> 
         </div>
          <br>
@@ -370,29 +410,29 @@ display: flex;
 
     </div>
     <div id="pros3_edit" style="display: none;">
-        <label id="edit_msg_title" ></label>
+        <label class="leble" id="edit_msg_title" ></label>
         <br>
         <br>
-        <label>Massage Text</label>    
+        <label class="lable">Message Text</label>    
         <input type="text" class="input-edit-admin" id="editmsg_text"></input>     
         <br><br>   
-        <label>Massage Duration</label>    
+        <label class="lable" >Message Duration</label>    
         <input type="text" class="input-edit-admin" id="editmsg_time"></input>          
         <br><br>    
-        <label>Massage Screen</label>    
+        <label class="lable">Message Screen</label>    
         <input type="text" class="input-edit-admin" id="editmsg_new_screen"></input>          
         <br><br>    
         <input type="button" class="btn" id="submit_edit_msg" value="Save Changes">       
 
     </div>
     <div id="pros3_add" style="display: none;">
-        <label id="add_msg_title" ></label>
+        <label class="lable" id="add_msg_title" ></label>
         <br>
         <br>
-        <label>Massage Text</label>    
+        <label class="lable">Message Text</label>    
         <input type="text" class="input-edit-admin" id="addmsg_text"></input>     
         <br><br>   
-        <label>Massage Duration</label>    
+        <label class="lable">Message Duration</label>    
         <input type="text" class="input-edit-admin" id="addmsg_time"></input>          
         <br><br>    
         <input type="button" class="btn" id="submit_add_msg" value="Save Changes">       

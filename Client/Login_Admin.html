@@ -12,14 +12,14 @@ body
 {
         margin: 0;  
         padding: 0;  
-        background-color:#f7fbfb;  
+        background-color:white;  
         font-family: 'Arial';  
 }  
 .login{  
 
     position: absolute;
-    top:100px;
-    left: 639px;  
+    top:50px;
+    left: 50px;  
 
 }  
 
@@ -45,23 +45,31 @@ width: 300px;
     background-color:#277582; 
 }  
 
+#title{
+    font-size: 25px;
+    color:#277582; 
+    text-decoration: underline;
+}
+
+.lable{
+    font-size: 14px;
+    text-decoration: none;
+
+}
 
 </style>
 
 </head>    
 <body>        
     <div class="login">    
-        <h2>Admin Login Page</h2>
+        <h2 id="title">Admin Login Page</h2>
 
     <form id="login" method="get" action="http://localhost:8080/admin="+Uname+Pass>    
-        <label><b>User Name     
-        </b>    
-        </label>    
+        <label class="lable">User Name</label>    
         <input type="text" name="Uname" id="Uname" placeholder="Username"></input> 
         <br><br>    
-        <label><b>Password     
-        </b>    
-        </label>    
+        <label class="lable">Password</label>    
+    
         <input type="Password" name="Pass" id="Pass" placeholder="Password"></input>     
         <br><br>    
         <input type="button" name="log" class="btn" id="log" value="LogIn">       

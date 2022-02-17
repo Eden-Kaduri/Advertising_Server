@@ -3,84 +3,84 @@
         "clientId": "1",
         "img": "https://imgur.com/97cMqie.png",
         "background": "bg-warning",
-        "txt": "Yalla Yalla Ya Beitar",
+        "txt": "Message 1 Client 1",
         "interval": "10000"
     },
     {
         "clientId": "1",
         "img": "https://imgur.com/7dCSWy0.png",
         "background": "bg-primary",
-        "txt": "Yalla Yalla Ya Maccabi",
+        "txt": "Message 2 Client 1",
         "interval": "12000"
     },
     {
         "clientId": "1",
         "img": "https://imgur.com/GzNTd6B.png",
         "background": "bg-success",
-        "txt": "Yalla Yalla Ya Haifa",
+        "txt": "Message 3 Client 1",
         "interval": "14000"
     },
     {
         "clientId": "1",
         "img": "https://imgur.com/jVJqjw5.png",
         "background": "bg-danger",
-        "txt": "Yalla Yalla Ya Hapoel",
+        "txt": "Message 4 Client 1",
         "interval": "17000"
     },
     {
         "clientId": "2",
         "img": "https://imgur.com/97cMqie.png",
         "background": "bg-warning",
-        "txt": "Yom gashom Hayom",
+        "txt": "Message 1 Client 2",
         "interval": "10000"
     },
     {
         "clientId": "2",
         "img": "https://imgur.com/7dCSWy0.png",
         "background": "bg-primary",
-        "txt": "Yom Shimshi Hayom",
+        "txt": "Message 2 Client 2",
         "interval": "12000"
     },
     {
         "clientId": "2",
         "img": "https://imgur.com/GzNTd6B.png",
         "background": "bg-success",
-        "txt": "Shabat shlom",
+        "txt": "Message 3 Client 2",
         "interval": "14000"
     },
     {
         "clientId": "2",
         "img": "https://imgur.com/jVJqjw5.png",
         "background": "bg-danger",
-        "txt": "Cororna time",
+        "txt": "Message 4 Client 2",
         "interval": "17000"
     },
     {
         "clientId": "3",
         "img": "https://imgur.com/97cMqie.png",
         "background": "bg-warning",
-        "txt": "Yalla Yalla Ya Eden",
+        "txt": "Message 1 Client 3",
         "interval": "10000"
     },
     {
         "clientId": "3",
         "img": "https://imgur.com/7dCSWy0.png",
         "background": "bg-primary",
-        "txt": "Yalla Yalla Ya Amit",
+        "txt": "Message 2 Client 3",
         "interval": "12000"
     },
     {
         "clientId": "3",
         "img": "https://imgur.com/GzNTd6B.png",
         "background": "bg-success",
-        "txt": "Yalla Yalla Ya Bar",
+        "txt": "Message 3 Client 3",
         "interval": "14000"
     },
     {
         "clientId": "3",
         "img": "https://imgur.com/jVJqjw5.png",
         "background": "bg-danger",
-        "txt": "Yalla Yalla Ya Hen",
+        "txt": "Message 4 Client 3",
         "interval": "17000"
     }
 ]
